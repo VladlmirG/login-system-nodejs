@@ -1,0 +1,29 @@
+<%- layout('layouts/main.ejs') %>
+<h1 class="text-center">Profile</h1>
+
+<div class="card mb-3">
+    <h3 class="card-header">User 33</h3>
+    <div class="card-body">
+      <h5 class="card-title">User 33 Rank</h5>
+      <h6 class="card-subtitle text-muted">User 33 short bias</h6>
+    </div>
+    <div class="text-center">
+    <img src="https://i.imgur.com/LDi0pzz.png" alt="" width="200" height="200" >
+</div>
+    <div class="card-body">
+      <p class="card-text">User 33 has no bio yet..</p>
+    </div>
+    <ul class="list-group list-group-flush text-center">
+        <h5>User 33 info</h5>
+      <li class="list-group-item"><%= user.email %></li>
+      <li class="list-group-item"><%= user.password %></li>
+      <li class="list-group-item"><%= user.id %></li>
+    </ul>
+    <div class="card-body text-center">
+      <a href="#" class="card-link">link 1</a>
+      <a href="#" class="card-link">link 2</a>
+    </div>
+    <div class="card-footer text-muted text-center">
+      x days ago
+    </div>
+  </div>
